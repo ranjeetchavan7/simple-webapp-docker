@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/<ranjeetchavan7>/<simple-webapp-docker>.git'
+                git 'https://github.com/ranjeetchavan7/simple-webapp-docker.git'
             }
         }
         stage('Build Docker Image') {
